@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Loader.Loader"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="LayoutRoot" Background="WhiteSmoke">
+        <!--<Image Source="bg.png" Stretch="Fill"></Image>-->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="logo.png" Stretch="None"/>
+            <StackPanel x:Name="DownloadListStackCtrl">
+                <!-- we will populate this area with dynamically generated progress controls. 
+                     One for each download... -->
+                <!--<GameSilverlightLoader:ProgressCtrl></GameSilverlightLoader:ProgressCtrl>
+                <GameSilverlightLoader:ProgressCtrl></GameSilverlightLoader:ProgressCtrl>-->
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
